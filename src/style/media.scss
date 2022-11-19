@@ -1,0 +1,129 @@
+@media (max-width: $tablet){
+    .catalog {
+        padding-top: 50px;
+    }
+    .slider {
+        min-height: 0;
+    }
+    .swiper {
+        &-slide {
+            img {
+                width: 70%;
+                height: auto;
+            } 
+        }
+  
+    }
+}
+
+@media (max-width: 665.98px){
+    .catalog {
+        padding-top: 50px;
+        &__tabs {
+            flex-direction: column;
+            align-items: center;
+
+        }
+        &__tab {
+            margin: 3px 0 3px 0;
+        }
+    }
+}
+
+@media (max-width: $mobileSmall){
+    .header {
+        flex-direction: column;
+        &__logo {
+            margin-bottom: 10px;
+        }
+        &__official {
+            margin-bottom: 15px;
+        }
+
+
+    }
+    .promo {
+        background: url('img/intro/bg.png') center left/cover no-repeat;
+        &__icons {
+            width: 330px;
+        }
+        &__wrapper{
+            align-items: center;
+        }
+    }
+    .benefits {
+        &__items {
+            flex-direction: column;
+        }
+        &__image {
+            padding-top: 20px;
+        }
+        &__subtitle {
+            margin-bottom: 10px;
+        }
+        &__text {
+            padding-bottom: 20px;
+        }
+    }
+    .consultation {
+        &__title {
+            padding-top: 30px;
+        }
+    }
+
+    .slider {
+        min-height: 0;
+    }
+    .swiper {
+        &-slide {
+            img {
+                width: 327px;
+                height: auto;
+            } 
+        }
+  
+    }
+
+    .catalog {
+        padding-top: 50px;
+        &__tabs {
+            flex-direction: column;
+            align-items: center;
+
+        }
+        &__tab {
+            margin: 3px 0 3px 0;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+    }
+
+    .reviews {
+        &__content {
+            margin-top: 30px;
+        }
+        &__items {
+            flex-direction: column;
+        }
+        &__img {
+            text-align: center;
+        }
+        &__text {
+            margin-left: 0;
+        }
+        &__name {
+            text-align: center;
+            margin-top: 3px;
+        }
+        &__info {
+            text-align: center;
+        }
+    }
+    .footer {
+        &__info {
+            width: 100%;
+        }
+    }
+
+}
